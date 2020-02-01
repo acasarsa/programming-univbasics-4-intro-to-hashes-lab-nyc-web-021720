@@ -28,7 +28,7 @@ end
 # return a hash that includes the key and value parameters passed into this method
 
 def my_hash_creator(key, value)
-  new_hash = Hash.new { |key, value| key[value]}
+  new_hash = Hash.new (key[value])
   new_hash
 end
 # so useing :key would create a new key to add but we want to just use the key that already exists. so we assign the arguement [key] to new_hash just by

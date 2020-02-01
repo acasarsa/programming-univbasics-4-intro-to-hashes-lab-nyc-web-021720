@@ -54,6 +54,6 @@ def update_counting_hash(hash, key)
   hash
 end
 
-h.default_proc = proc do |hash, key|
-  hash[key] = key + key
-end
+# h.default_proc = proc do |hash, key|
+#   hash[key] = key + key
+# end

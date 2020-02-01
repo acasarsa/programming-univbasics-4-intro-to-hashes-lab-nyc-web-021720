@@ -13,7 +13,7 @@ def pioneer
 end
 
 def id_generator
-  {name: rand(10)}
+  {id: rand(10)}
   # return a hash with a key :id assigned to positive integer
 end
 

@@ -18,11 +18,11 @@ def id_generator
 end
 
 #not working
-def my_hash_creator(key, value)
-  new_hash = {}
-  new_hash[key] = value
-  new_hash
-end
+# def my_hash_creator(key, value)
+#   new_hash = {}
+#   new_hash[key] = value
+#   new_hash
+# end
 # so useing :key would create a new key to add but we want to just use the key that already exists. so we assign the arguement [key] to new_hash just by
 # new_hash[key] then set it to equal the agument of value
 # return a hash that includes the key and value parameters passed into this method
@@ -31,7 +31,7 @@ def my_hash_creator(key, value)
   new_hash = Hash.new { |hash, value| hash[value]}
   new_hash
 end
-# so useing :key would create a new key to add but we want to just use the key that already exists. so we assign the arguement [key] to new_hash just by 
+# so useing :key would create a new key to add but we want to just use the key that already exists. so we assign the arguement [key] to new_hash just by
 # new_hash[key] then set it to equal the agument of value
 # return a hash that includes the key and value parameters passed into this method
 

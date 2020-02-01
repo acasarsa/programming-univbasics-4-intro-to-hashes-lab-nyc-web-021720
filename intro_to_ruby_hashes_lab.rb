@@ -23,7 +23,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  hash.fetch(key, [default = nil])
+  hash.fetch(key, default = nil)
   # return the correct value using the hash and key parameters
 end
 

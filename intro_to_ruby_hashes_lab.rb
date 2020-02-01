@@ -47,7 +47,7 @@ end
 # end
 
 def update_counting_hash(hash, key)
-  hash[key] ? hash[key] += 1 : hash[key] = 1
+  hash[key] ? hash[key] += 1 : hash[key] = 1  # ternary operator 
   hash   #always try returning !!! whenever you change
 end
 #if key exits

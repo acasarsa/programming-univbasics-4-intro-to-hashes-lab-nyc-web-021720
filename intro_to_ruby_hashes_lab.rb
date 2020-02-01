@@ -17,6 +17,7 @@ def id_generator
   # return a hash with a key :id assigned to positive integer
 end
 
+#not working
 def my_hash_creator(key, value)
   new_hash = {:key => value}
   new_hash[:key]
@@ -28,6 +29,7 @@ def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
 end
 
+# not working
 def update_counting_hash(hash, key)
   test_hash = {}
   item = :hash
@@ -40,6 +42,7 @@ def update_counting_hash(hash, key)
 
 end
 
+#want to learn how to do the default proc class
 # def update_counting_hash(hash, key)
 #
 #

@@ -42,7 +42,7 @@ test_hash = {}
   else
     test_hash[hash] = 1
   end
-  test_hash
+  test_hash[hash]
 end
 
 #want to learn how to do the default proc class

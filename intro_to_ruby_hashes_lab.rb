@@ -42,7 +42,7 @@ def update_counting_hash(hash, key)
   else
     hash[key] = 1
   end
-  hash
+  hash   #always try returning !!! whenever you change 
 end
 
 #want to learn how to do the default proc class

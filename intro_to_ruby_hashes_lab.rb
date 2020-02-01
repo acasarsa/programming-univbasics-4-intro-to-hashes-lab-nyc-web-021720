@@ -17,7 +17,7 @@ def id_generator
   # return a hash with a key :id assigned to positive integer
 end
 
-not working
+
 def my_hash_creator(key, value)
   new_hash[key] = value
   new_hash
@@ -25,7 +25,6 @@ end
 # so useing :key would create a new key to add but we want to just use the key that already exists. so we assign the arguement [key] to new_hash just by
 # new_hash[key] then set it to equal the agument of value
 # return a hash that includes the key and value parameters passed into this method
-
 
 
 def read_from_hash(hash, key)

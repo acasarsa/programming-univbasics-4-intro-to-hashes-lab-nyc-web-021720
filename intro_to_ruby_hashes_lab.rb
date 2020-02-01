@@ -51,7 +51,7 @@ end
 #want to learn how to do the default proc class
 # def update_counting_hash(hash, key)
 #   hash.default_proc = proc do |hash, key|
-#     hash[key] = 1 
+#     hash[key] = 1
 #     # else    # this is wrong but what do i use instead?
 #     #   hash[key] = 1
 #     end

@@ -35,14 +35,14 @@ end
 
 # not working
 def update_counting_hash(hash, key)
-test_hash = {}
-  if test_hash[hash]
-    test_hash[hash] += 1
+
+  if hash[key]
+    hash[key] += 1
 
   else
-    test_hash[hash] = 1
+    hash[key] = 1
   end
-  test_hash[hash]
+  hash
 end
 
 #want to learn how to do the default proc class

@@ -42,11 +42,17 @@ def update_counting_hash(hash, key)
   else
     hash[key] = 1
   end
-  hash   #always try returning !!! whenever you change 
+
+  hash   #always try returning !!! whenever you change
 end
 
 #want to learn how to do the default proc class
-# def update_counting_hash(hash, key)
-#
-#
-# end
+def update_counting_hash(hash, key)
+  hash.default_proc = proc do |hash, key|
+    hash[key] = key + key
+  end
+end
+
+h.default_proc = proc do |hash, key|
+  hash[key] = key + key
+end

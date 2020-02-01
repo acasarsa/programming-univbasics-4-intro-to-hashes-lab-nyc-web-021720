@@ -32,11 +32,11 @@ end
 # not working
 def update_counting_hash(hash, key)
 
-  if test_hash[item]
-    test_hash[item] += 1
+  if hash[key]
+    hash[key] += 1
 
   else
-    test_hash[item] = 1
+    hash[key] = 1
   end
 
 end

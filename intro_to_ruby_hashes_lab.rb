@@ -31,8 +31,7 @@ end
 
 # not working
 def update_counting_hash(hash, key)
-  test_hash = {}
-  item = :hash
+
   if test_hash[item]
     test_hash[item] += 1
 

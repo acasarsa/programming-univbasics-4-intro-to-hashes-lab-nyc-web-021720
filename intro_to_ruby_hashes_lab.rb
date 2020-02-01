@@ -34,28 +34,30 @@ def read_from_hash(hash, key)
 end
 
 # not working
-# def update_counting_hash(hash, key)
-#
-#   if hash[key]
-#     hash[key] += 1
-#
-#   else
-#     hash[key] = 1
-#   end
-#
-#   hash   #always try returning !!! whenever you change
-# end
+def update_counting_hash(hash, key)
+binding.pry
+  if hash[key]
+    hash[key] += 1
+
+  else
+    hash[key] = 1
+  end
+
+  hash   #always try returning !!! whenever you change
+end
+
+
 
 #want to learn how to do the default proc class
-def update_counting_hash(hash, key)
-  hash.default_proc = proc do |hash, key|
-    hash[key] = 1
-    # else    # this is wrong but what do i use instead?
-    #   hash[key] = 1
-    end
-    binding.pry
-  hash
-end
+# def update_counting_hash(hash, key)
+#   hash.default_proc = proc do |hash, key|
+#     hash[key] = 1 
+#     # else    # this is wrong but what do i use instead?
+#     #   hash[key] = 1
+#     end
+#     binding.pry
+#   hash
+# end
 
 # h.default_proc = proc do |hash, key|
 #   hash[key] = key + key

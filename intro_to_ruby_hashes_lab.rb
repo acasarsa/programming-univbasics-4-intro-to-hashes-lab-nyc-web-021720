@@ -33,7 +33,7 @@ def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
 end
 
-# not working
+
 # def update_counting_hash(hash, key)
 # binding.pry
 #   if hash[key]
@@ -47,7 +47,7 @@ end
 # end
 
 def update_counting_hash(hash, key)
-  hash[key] ? hash[key] += 1 : hash[key] = 1  # ternary operator 
+  hash[key] ? hash[key] += 1 : hash[key] = 1  # ternary operator
   hash   #always try returning !!! whenever you change
 end
 #if key exits

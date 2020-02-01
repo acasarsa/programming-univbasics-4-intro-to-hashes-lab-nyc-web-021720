@@ -19,7 +19,7 @@ end
 
 
 def my_hash_creator(key, value)
-  new_hash[key] = value
+  new_hash = new_hash[key] = value
   new_hash
 end
 # so useing :key would create a new key to add but we want to just use the key that already exists. so we assign the arguement [key] to new_hash just by

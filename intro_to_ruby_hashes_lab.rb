@@ -31,9 +31,11 @@ end
 def update_counting_hash(hash, key)
   if test_hash[:hash]
     test_hash[:hash] += 1
+
   else
     test_hash[:hash] = 1
   end
+
 end
 
 # def update_counting_hash(hash, key)

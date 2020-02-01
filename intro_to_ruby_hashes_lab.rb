@@ -35,7 +35,7 @@ end
 
 # not working
 def update_counting_hash(hash, key)
-
+test_hash = {}
   if test_hash[hash[key]]
     test_hash[hash[key]] += 1
 

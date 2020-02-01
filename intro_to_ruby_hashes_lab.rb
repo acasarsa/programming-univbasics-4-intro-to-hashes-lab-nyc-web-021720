@@ -18,7 +18,9 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  {name: "Grace Hopper"}
+  key = :item
+  value = "price.to_int"
+  {}
   # return a hash that includes the key and value parameters passed into this method
 end
 

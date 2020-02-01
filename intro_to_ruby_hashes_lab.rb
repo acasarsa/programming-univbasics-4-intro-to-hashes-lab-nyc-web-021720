@@ -29,6 +29,7 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
+  test_hash = {}
   if test_hash[:hash]
     test_hash[:hash] += 1
 
@@ -38,7 +39,7 @@ def update_counting_hash(hash, key)
 
 end
 
-def update_counting_hash(hash, key)
-
-
-end
+# def update_counting_hash(hash, key)
+#
+#
+# end

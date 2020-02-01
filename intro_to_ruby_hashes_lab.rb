@@ -38,11 +38,11 @@ end
 # binding.pry
 #   if hash[key]
 #     hash[key] += 1
-# 
+#
 #   else
 #     hash[key] = 1
 #   end
-# 
+#
 #   hash   #always try returning !!! whenever you change
 # end
 
@@ -50,7 +50,7 @@ def update_counting_hash(hash, key)
   hash[key] ? hash[key] += 1 : hash[key] = 1
   hash   #always try returning !!! whenever you change
 end
-#if key exits 
+#if key exits
 # hash[key] += 1 ||= 1
 
 

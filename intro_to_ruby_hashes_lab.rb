@@ -34,17 +34,17 @@ def read_from_hash(hash, key)
 end
 
 # not working
-def update_counting_hash(hash, key)
-
-  if hash[key]
-    hash[key] += 1
-
-  else
-    hash[key] = 1
-  end
-
-  hash   #always try returning !!! whenever you change
-end
+# def update_counting_hash(hash, key)
+#
+#   if hash[key]
+#     hash[key] += 1
+#
+#   else
+#     hash[key] = 1
+#   end
+#
+#   hash   #always try returning !!! whenever you change
+# end
 
 #want to learn how to do the default proc class
 def update_counting_hash(hash, key)

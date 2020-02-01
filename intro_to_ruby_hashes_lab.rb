@@ -50,9 +50,10 @@ end
 def update_counting_hash(hash, key)
   hash.default_proc = proc do |hash, key|
     hash[key] = key + key
-    else
+    else    # this is wrong but what do i use instead?
       hash[key] = 1
-  end
+    end
+    
   hash
 end
 
